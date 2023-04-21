@@ -1,0 +1,33 @@
+h2{
+  width: 100%;
+  display: grid;
+  place-content: center;
+  background-color: white;
+  
+}
+
+body{
+    background-color: lightgray;
+}
+
+.caja_1 { 
+  
+    width: 100%;
+    display: grid;
+    place-content: center;
+      
+     }
+
+.caja_2 { 
+        width: 100%;
+        display: grid;
+        place-content: center;
+        
+           } 
+           
+.caja_3 { 
+            width: 100%;
+            display: grid;
+            place-content: center;
+            
+               }
