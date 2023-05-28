@@ -1,33 +1,49 @@
-h2{
-  width: 100%;
-  display: grid;
-  place-content: center;
-  background-color: white;
-  
-}
-
 body{
     background-color: lightgray;
+    margin:0;
 }
 
-.caja_1 { 
-  
-    width: 100%;
-    display: grid;
-    place-content: center;
-      
-     }
+div{
+  box-sizing: border-box;
+}
 
-.caja_2 { 
-        width: 100%;
-        display: grid;
-        place-content: center;
-        
-           } 
-           
-.caja_3 { 
-            width: 100%;
-            display: grid;
-            place-content: center;
-            
-               }
+header{
+  background-color: white;
+  padding:10px;
+}
+
+header h1{
+  margin:0;
+}
+
+div.post{
+  background-color: white;
+  margin-top: 10px;
+}
+
+div.post img{
+  width: 100%;
+}
+
+div.container{
+  width: 600px;
+  margin:auto; 
+
+}
+
+div post h2, div post p{
+  padding: 5px;
+  margin:0;
+}
+
+div.post.post-header div:first-child{
+  display:inline-block;
+  width: 80%;
+}
+
+div.post.post-header div:last-child{
+  display:inline-block;
+  width: 20%;
+  text-align: right;
+  
+}
